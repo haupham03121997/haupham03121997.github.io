@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/slick.css" />
+    <link rel="stylesheet" href="./css/slick-theme.css" />
+    <link rel="stylesheet" href="./css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css" />
+</head>
+<style>
+    .dropdown-content ul {
+        list-style: none;
+    }
+    
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .dropdown-content {
+        border: 1px solid black;
+        display: none;
+    }
+    
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    
+    .dropdown-content ul {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+</style>
+
+<body>
+    <div class="dropdown">
+        <button class="dropbtn">Dropdown</button>
+        <div class="dropdown-content">
+            <ul>
+                <li>kjashkdjasdja</li>
+                <li>link2</li>
+                <li>link3</li>
+            </ul>
+        </div>
+    </div>
+    <section class="carousel">
+        <div class="carousel_content">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <h2>LOREM IPSUM AMET</h2>
+                    <p>Lorem ipsum dolor sit, consectetur adiping elit.</p>
+                </div>
+
+                <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+                <script src="./js/slick.min.js"></script>
+                <script src="./js/owl.carousel.min.js"></script>
+                <script>
+                    $(".owl-carousel").owlCarousel({
+                        loop: true,
+                        margin: 10,
+                        nav: true,
+                        responsive: {
+                            0: {
+                                items: 1,
+                            },
+                            600: {
+                                items: 3,
+                            },
+                            1000: {
+                                items: 3,
+                            },
+                        },
+                    });
+                </script>
+</body>
+
+</html>

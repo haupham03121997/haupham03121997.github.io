@@ -1,0 +1,71 @@
+.feedback {
+    background: url('../img/banner-2.jpg') no-repeat center fixed;
+    height: 600px;
+    position: relative;
+}
+
+.feedback__top {
+    width: 80%;
+    border: 1px solid white;
+    position: absolute;
+    left: 10%;
+    text-align: center;
+}
+
+.feedback__top h2 {
+    color: white;
+    font-size: 3rem;
+}
+
+.feedback__top p {
+    color: yellow;
+    letter-spacing: 6px;
+    padding: 10px 0;
+}
+
+.feedback__comment {
+    position: absolute;
+    top: 40%;
+    width: 80%;
+    left: 10%;
+    border: 1px solid wheat;
+    color: white;
+}
+
+.owl-nav {
+    opacity: 0;
+}
+
+.owl-carousel {
+    background: url(../img/banner-2.jpg) no-repeat center fixed;
+    width: 80%;
+    margin: auto;
+    border: 1px solid red;
+}
+
+.item {
+    border: 1px solid red;
+}
+
+.item__title .theP {
+    background-color: rgba(128, 128, 128, 0.411);
+    position: relative;
+}
+
+.item__title .theP::after {
+    position: absolute;
+    content: '';
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-top: 9px solid rgba(36, 35, 35, 0.23);
+    border-right: 9px solid transparent;
+    border-left: 9px solid transparent;
+    transform: rotate(0deg);
+}
+
+a {
+    position: absolute;
+    top: 0;
+}
